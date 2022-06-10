@@ -146,7 +146,7 @@ int main(int argc, char** argv) {
             cv::Scalar color(0,0,255);
             int thickness = 2;
 
-            // and draw lines in the sorted order
+            // and draw lines in the selected order (sequential traversal since coordinates were previously sorted according to the chosen order)
             for (int i = 0; i < coords_list.size()-1; i++) {
                 int new_x1 = coords_list[i].x*dist + dist/2;
                 int new_y1 = coords_list[i].y*dist + dist/2;
