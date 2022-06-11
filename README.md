@@ -5,7 +5,7 @@
 * Julisa Lapa
 * Luis Carbajal
 
-## Compilar
+## Compilación
 Tener OpenCV instalado ([  __Guía__  ](https://stackoverflow.com/questions/15320267/package-opencv-was-not-found-in-the-pkg-config-search-path))
 Para correr el código, se debe tener seteado el file 'opencv.pc' in "/usr/local/lib/pkgconfig".
 Además agregar las siguientes líneas al '.bashrc' o '.zshrc'.
@@ -38,7 +38,7 @@ Una vez hecho esto podemos compilar el programa:
 g++ main.cpp `pkg-config opencv4 --cflags --libs
 ```
 
-## Uso
+## Ejecución
 Una vez ejecutado el programa se abrirá una ventana con una cuadrícula 8x8. La ventana responde a 6 teclas:
 * a: Reduce las dimensiones de la cuadrícula
 * s: Aumenta las dimensiones de la cuadrícula
