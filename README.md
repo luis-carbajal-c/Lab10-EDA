@@ -33,6 +33,10 @@ Version: 2.x.x
 Cflags: -I${includedir}/opencv -I${includedir}/opencv2
 Libs: -L${libdir} -lopencv_calib3d -lopencv_imgproc -lopencv_core -lopencv_ml -lopencv_features2d -lopencv_objdetect -lopencv_flann -lopencv_video -lopencv_highgui
 ```
+Una vez hecho esto podemos compilar el programa:
+```
+g++ main.cpp `pkg-config opencv4 --cflags --libs
+```
 
 ## Uso
 Una vez ejecutado el programa se abrirá una ventana con una cuadrícula 8x8. La ventana responde a 6 teclas:
