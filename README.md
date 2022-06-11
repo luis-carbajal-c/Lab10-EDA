@@ -1,4 +1,4 @@
-# Lab10-EDA
+# Laboratorio 10 - EDA
 
 ## Integrantes
 * Jorge Castillo
