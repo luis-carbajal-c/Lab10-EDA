@@ -1,5 +1,10 @@
 # Lab10-EDA
 
+## Integrantes
+* Jorge Castillo
+* Julisa Lapa
+* Luis Carbajal
+
 ## Compilar
 Tener OpenCV instalado ([  __Guía__  ](https://stackoverflow.com/questions/15320267/package-opencv-was-not-found-in-the-pkg-config-search-path))
 Para correr el código, se debe tener seteado el file 'opencv.pc' in "/usr/local/lib/pkgconfig".
